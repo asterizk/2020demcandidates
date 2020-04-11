@@ -2,6 +2,7 @@
 #              determine what topics are being recorded and print out the headings from
 #              each table.
 # Purpose:     to learn a bit about how BeautifulSoup works, and associated bits of Python
+# Author: Krishen Greenwell
 
 # Adapted from https://medium.com/analytics-vidhya/web-scraping-wiki-tables-using-beautifulsoup-and-python-6b9ea26d8722
 import requests
