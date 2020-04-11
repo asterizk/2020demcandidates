@@ -1,10 +1,17 @@
-# Description: scrape the wikipedia page of democratic primary candidate positions to
+# Description: Scrape the wikipedia page of Democratic primary candidate positions to
 #              determine what topics are being recorded and print out the headings from
 #              each table.
-# Purpose:     to learn a bit about how BeautifulSoup works, and associated bits of Python
-# Author: Krishen Greenwell
+#
+#     Purpose: To learn a bit about how BeautifulSoup (https://launchpad.net/beautifulsoup)
+#              works, and associated bits of Python (https://www.python.org/)
+#
+#       Usage: python scrapepositions.py (no arguments)
+#
+#      Author: Krishen Greenwell
+#
+#        Date: Mar-Apr 2020
 
-# Adapted from https://medium.com/analytics-vidhya/web-scraping-wiki-tables-using-beautifulsoup-and-python-6b9ea26d8722
+# Usage adapted from https://medium.com/analytics-vidhya/web-scraping-wiki-tables-using-beautifulsoup-and-python-6b9ea26d8722
 import requests
 website_url = requests.get('https://en.wikipedia.org/wiki/Political_positions_of_the_2020_Democratic_Party_presidential_primary_candidates').text
 #print(website_url)
